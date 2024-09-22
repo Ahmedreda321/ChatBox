@@ -1,0 +1,216 @@
+Date : 2024-09-22 00:13:33
+Directory : d:\Flutter\projects\chatbox
+Total : 139 files,  3624 codes, 293 comments, 432 blanks, all 4349 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |         70 |      3,150 |        208 |        327 |      3,685 |
+| XML        |         57 |        302 |         53 |         61 |        416 |
+| Gradle     |          3 |         71 |         10 |         15 |         96 |
+| YAML       |          4 |         53 |         22 |         20 |         95 |
+| JSON       |          2 |         30 |          0 |          0 |         30 |
+| Markdown   |          1 |         10 |          0 |          7 |         17 |
+| Properties |          2 |          8 |          0 |          2 |         10 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                       |        139 |      3,624 |        293 |        432 |      4,349 |
+| . (Files)                                                                               |          6 |         64 |         22 |         27 |        113 |
+| android                                                                                 |         13 |        174 |         61 |         26 |        261 |
+| android (Files)                                                                         |          3 |         41 |          2 |          9 |         52 |
+| android\app                                                                             |          9 |        128 |         59 |         16 |        203 |
+| android\app (Files)                                                                     |          2 |         62 |          8 |          7 |         77 |
+| android\app\src                                                                         |          7 |         66 |         51 |          9 |        126 |
+| android\app\src\debug                                                                   |          1 |          3 |          4 |          1 |          8 |
+| android\app\src\main                                                                    |          5 |         60 |         43 |          7 |        110 |
+| android\app\src\main (Files)                                                            |          1 |         34 |         11 |          1 |         46 |
+| android\app\src\main\res                                                                |          4 |         26 |         32 |          6 |         64 |
+| android\app\src\main\res\drawable                                                       |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\drawable-v21                                                   |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\values                                                         |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\main\res\values-night                                                   |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\profile                                                                 |          1 |          3 |          4 |          1 |          8 |
+| android\gradle                                                                          |          1 |          5 |          0 |          1 |          6 |
+| android\gradle\wrapper                                                                  |          1 |          5 |          0 |          1 |          6 |
+| assets                                                                                  |         50 |        236 |          2 |         52 |        290 |
+| assets\svgs                                                                             |         50 |        236 |          2 |         52 |        290 |
+| lib                                                                                     |         70 |      3,150 |        208 |        327 |      3,685 |
+| lib (Files)                                                                             |          1 |         53 |          0 |          5 |         58 |
+| lib\core                                                                                |          7 |        198 |         73 |         45 |        316 |
+| lib\core\helper                                                                         |          4 |         18 |         73 |         16 |        107 |
+| lib\core\theming                                                                        |          3 |        180 |          0 |         29 |        209 |
+| lib\logic                                                                               |          6 |        175 |          0 |         30 |        205 |
+| lib\logic\cubits                                                                        |          4 |        105 |          0 |         24 |        129 |
+| lib\logic\cubits\auth_cubit                                                             |          2 |         66 |          0 |         14 |         80 |
+| lib\logic\cubits\home_cubit                                                             |          2 |         39 |          0 |         10 |         49 |
+| lib\logic\models                                                                        |          2 |         70 |          0 |          6 |         76 |
+| lib\routes                                                                              |          1 |         29 |          0 |          1 |         30 |
+| lib\screens                                                                             |         44 |      2,437 |         21 |        170 |      2,628 |
+| lib\screens (Files)                                                                     |          3 |        212 |          0 |         14 |        226 |
+| lib\screens\auth                                                                        |         19 |      1,081 |         12 |         80 |      1,173 |
+| lib\screens\auth (Files)                                                                |          3 |        363 |          2 |         22 |        387 |
+| lib\screens\auth\widgets                                                                |         16 |        718 |         10 |         58 |        786 |
+| lib\screens\chat                                                                        |          9 |        382 |          3 |         27 |        412 |
+| lib\screens\chat (Files)                                                                |          3 |        103 |          1 |          9 |        113 |
+| lib\screens\chat\widgets                                                                |          6 |        279 |          2 |         18 |        299 |
+| lib\screens\contacts                                                                    |          1 |         36 |          0 |          2 |         38 |
+| lib\screens\groups                                                                      |          4 |        239 |          0 |         12 |        251 |
+| lib\screens\home                                                                        |          6 |        325 |          3 |         27 |        355 |
+| lib\screens\home (Files)                                                                |          1 |        137 |          2 |          8 |        147 |
+| lib\screens\home\widgets                                                                |          5 |        188 |          1 |         19 |        208 |
+| lib\screens\settings                                                                    |          2 |        162 |          3 |          8 |        173 |
+| lib\services                                                                            |          4 |        132 |         12 |         10 |        154 |
+| lib\services\firebase_services                                                          |          4 |        132 |         12 |         10 |        154 |
+| lib\utils                                                                               |          7 |        126 |        102 |         66 |        294 |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Flutter\projects\chatbox\README.md                                                   | Markdown   |         10 |          0 |          7 |         17 |
+| d:\Flutter\projects\chatbox\analysis_options.yaml                                       | YAML       |          3 |         22 |          4 |         29 |
+| d:\Flutter\projects\chatbox\android\app\build.gradle                                    | Gradle     |         33 |          8 |          7 |         48 |
+| d:\Flutter\projects\chatbox\android\app\google-services.json                            | JSON       |         29 |          0 |          0 |         29 |
+| d:\Flutter\projects\chatbox\android\app\src\debug\AndroidManifest.xml                   | XML        |          3 |          4 |          1 |          8 |
+| d:\Flutter\projects\chatbox\android\app\src\main\AndroidManifest.xml                    | XML        |         34 |         11 |          1 |         46 |
+| d:\Flutter\projects\chatbox\android\app\src\main\res\drawable-v21\launch_background.xml | XML        |          4 |          7 |          2 |         13 |
+| d:\Flutter\projects\chatbox\android\app\src\main\res\drawable\launch_background.xml     | XML        |          4 |          7 |          2 |         13 |
+| d:\Flutter\projects\chatbox\android\app\src\main\res\values-night\styles.xml            | XML        |          9 |          9 |          1 |         19 |
+| d:\Flutter\projects\chatbox\android\app\src\main\res\values\styles.xml                  | XML        |          9 |          9 |          1 |         19 |
+| d:\Flutter\projects\chatbox\android\app\src\profile\AndroidManifest.xml                 | XML        |          3 |          4 |          1 |          8 |
+| d:\Flutter\projects\chatbox\android\build.gradle                                        | Gradle     |         16 |          0 |          3 |         19 |
+| d:\Flutter\projects\chatbox\android\gradle.properties                                   | Properties |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\android\gradle\wrapper\gradle-wrapper.properties            | Properties |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\android\settings.gradle                                     | Gradle     |         22 |          2 |          5 |         29 |
+| d:\Flutter\projects\chatbox\assets\svgs\AccountSettings.svg                             | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\Attachment.svg                                  | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\Call.svg                                        | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\Logo.svg                                        | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\Notifications.svg                               | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\Search.svg                                      | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\Send.svg                                        | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\addIcon.svg                                     | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\add_chat.svg                                    | XML        |          2 |          0 |          0 |          2 |
+| d:\Flutter\projects\chatbox\assets\svgs\add_group.svg                                   | XML        |          9 |          0 |          0 |          9 |
+| d:\Flutter\projects\chatbox\assets\svgs\alarmIcon.svg                                   | XML        |          6 |          0 |          1 |          7 |
+| d:\Flutter\projects\chatbox\assets\svgs\backArrow.svg                                   | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\call-user.svg                                   | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\camera.svg                                      | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\changeProfile.svg                               | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\chats.svg                                       | XML        |          6 |          0 |          1 |          7 |
+| d:\Flutter\projects\chatbox\assets\svgs\check.svg                                       | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\clarity_check-circle-line.svg                   | XML        |         11 |          0 |          1 |         12 |
+| d:\Flutter\projects\chatbox\assets\svgs\copy.svg                                        | XML        |          6 |          1 |          5 |         12 |
+| d:\Flutter\projects\chatbox\assets\svgs\correctIcon.svg                                 | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\correctIconSec.svg                              | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\courses.svg                                     | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\edit-photo.svg                                  | XML        |          6 |          1 |          5 |         12 |
+| d:\Flutter\projects\chatbox\assets\svgs\edit.svg                                        | XML        |          4 |          0 |          0 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\events.svg                                      | XML        |          7 |          0 |          1 |          8 |
+| d:\Flutter\projects\chatbox\assets\svgs\files.svg                                       | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\gmail.svg                                       | XML        |          2 |          0 |          0 |          2 |
+| d:\Flutter\projects\chatbox\assets\svgs\group.svg                                       | XML        |          9 |          0 |          0 |          9 |
+| d:\Flutter\projects\chatbox\assets\svgs\home.svg                                        | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\info.svg                                        | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\key.svg                                         | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\locationIcon.svg                                | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\lock.svg                                        | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\logout.svg                                      | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\mail.svg                                        | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\media.svg                                       | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\nextIcon.svg                                    | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\not_read.svg                                    | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\outCorrectIcon.svg                              | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\outHome.svg                                     | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\outProfile.svg                                  | XML        |          4 |          0 |          1 |          5 |
+| d:\Flutter\projects\chatbox\assets\svgs\profile.svg                                     | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\qr.svg                                          | XML        |         14 |          0 |          1 |         15 |
+| d:\Flutter\projects\chatbox\assets\svgs\read.svg                                        | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\remove.svg                                      | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\removeProfile.svg                               | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\assets\svgs\timer.svg                                       | XML        |          7 |          0 |          0 |          7 |
+| d:\Flutter\projects\chatbox\assets\svgs\trash.svg                                       | XML        |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\assets\svgs\user-add.svg                                    | XML        |          6 |          0 |          1 |          7 |
+| d:\Flutter\projects\chatbox\assets\svgs\user.svg                                        | XML        |          5 |          0 |          1 |          6 |
+| d:\Flutter\projects\chatbox\devtools_options.yaml                                       | YAML       |          3 |          0 |          1 |          4 |
+| d:\Flutter\projects\chatbox\firebase.json                                               | JSON       |          1 |          0 |          0 |          1 |
+| d:\Flutter\projects\chatbox\lib\core\helper\bottom_sheet_helper.dart                    | Dart       |         10 |          0 |          2 |         12 |
+| d:\Flutter\projects\chatbox\lib\core\helper\extensions.dart                             | Dart       |          0 |         24 |          6 |         30 |
+| d:\Flutter\projects\chatbox\lib\core\helper\show_snack_bar.dart                         | Dart       |          0 |         49 |          5 |         54 |
+| d:\Flutter\projects\chatbox\lib\core\helper\spacing.dart                                | Dart       |          8 |          0 |          3 |         11 |
+| d:\Flutter\projects\chatbox\lib\core\theming\colors.dart                                | Dart       |         20 |          0 |          2 |         22 |
+| d:\Flutter\projects\chatbox\lib\core\theming\font_weight_helper.dart                    | Dart       |         11 |          0 |          2 |         13 |
+| d:\Flutter\projects\chatbox\lib\core\theming\styles.dart                                | Dart       |        149 |          0 |         25 |        174 |
+| d:\Flutter\projects\chatbox\lib\logic\cubits\auth_cubit\auth_cubit.dart                 | Dart       |         51 |          0 |          5 |         56 |
+| d:\Flutter\projects\chatbox\lib\logic\cubits\auth_cubit\auth_state.dart                 | Dart       |         15 |          0 |          9 |         24 |
+| d:\Flutter\projects\chatbox\lib\logic\cubits\home_cubit\home_cubit.dart                 | Dart       |         15 |          0 |          5 |         20 |
+| d:\Flutter\projects\chatbox\lib\logic\cubits\home_cubit\home_state.dart                 | Dart       |         24 |          0 |          5 |         29 |
+| d:\Flutter\projects\chatbox\lib\logic\models\room_model.dart                            | Dart       |         29 |          0 |          3 |         32 |
+| d:\Flutter\projects\chatbox\lib\logic\models\user_model.dart                            | Dart       |         41 |          0 |          3 |         44 |
+| d:\Flutter\projects\chatbox\lib\main.dart                                               | Dart       |         53 |          0 |          5 |         58 |
+| d:\Flutter\projects\chatbox\lib\routes\routes.dart                                      | Dart       |         29 |          0 |          1 |         30 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\forgot_screen.dart                         | Dart       |         97 |          1 |          7 |        105 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\login_screen.dart                          | Dart       |        113 |          1 |          5 |        119 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\sign_up_screen.dart                        | Dart       |        153 |          0 |         10 |        163 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\app_text_form_field.dart           | Dart       |         81 |          1 |          5 |         87 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\backto_botton.dart                 | Dart       |         35 |          0 |          2 |         37 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\forgot_password.dart               | Dart       |         25 |          0 |          3 |         28 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\head_title.dart                    | Dart       |         17 |          0 |          2 |         19 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\header.dart                        | Dart       |         52 |          1 |          2 |         55 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\input_field_widget.dart            | Dart       |         49 |          1 |          5 |         55 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\my_icon_svg.dart                   | Dart       |         29 |          1 |          4 |         34 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\my_text_fild.dart                  | Dart       |         65 |          0 |          7 |         72 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\mybotton.dart                      | Dart       |         33 |          0 |          2 |         35 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\mytext_rich.dart                   | Dart       |         46 |          0 |          3 |         49 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\or.dart                            | Dart       |         22 |          0 |          3 |         25 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\otp_text_field.dart                | Dart       |         30 |          0 |          3 |         33 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\pages_body.dart                    | Dart       |         87 |          3 |          4 |         94 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\password_fild.dart                 | Dart       |         74 |          2 |          6 |         82 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\question_and_botton.dart           | Dart       |         38 |          0 |          3 |         41 |
+| d:\Flutter\projects\chatbox\lib\screens\auth\widgets\sign_with.dart                     | Dart       |         35 |          1 |          4 |         40 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\chat_room.dart                             | Dart       |         28 |          1 |          4 |         33 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\chats_builder.dart                         | Dart       |         25 |          0 |          3 |         28 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\contact_info_screen.dart                   | Dart       |         50 |          0 |          2 |         52 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\widgets\chat_app_bar.dart                  | Dart       |         60 |          0 |          3 |         63 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\widgets\chat_card.dart                     | Dart       |         42 |          2 |          2 |         46 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\widgets\chat_message_bubble.dart           | Dart       |         72 |          0 |          5 |         77 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\widgets\chat_message_list.dart             | Dart       |         26 |          0 |          3 |         29 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\widgets\input_bar.dart                     | Dart       |         63 |          0 |          3 |         66 |
+| d:\Flutter\projects\chatbox\lib\screens\chat\widgets\svg_icon_botton.dart               | Dart       |         16 |          0 |          2 |         18 |
+| d:\Flutter\projects\chatbox\lib\screens\contacts\contacts_builder.dart                  | Dart       |         36 |          0 |          2 |         38 |
+| d:\Flutter\projects\chatbox\lib\screens\groups\creat_group_screen.dart                  | Dart       |         93 |          0 |          3 |         96 |
+| d:\Flutter\projects\chatbox\lib\screens\groups\group_member_screen.dart                 | Dart       |         93 |          0 |          3 |         96 |
+| d:\Flutter\projects\chatbox\lib\screens\groups\group_room.dart                          | Dart       |         28 |          0 |          3 |         31 |
+| d:\Flutter\projects\chatbox\lib\screens\groups\groups_builder.dart                      | Dart       |         25 |          0 |          3 |         28 |
+| d:\Flutter\projects\chatbox\lib\screens\home\home_page.dart                             | Dart       |        137 |          2 |          8 |        147 |
+| d:\Flutter\projects\chatbox\lib\screens\home\widgets\app_bar_icon.dart                  | Dart       |         35 |          1 |          2 |         38 |
+| d:\Flutter\projects\chatbox\lib\screens\home\widgets\bottom_nav_bar.dart                | Dart       |         62 |          0 |          4 |         66 |
+| d:\Flutter\projects\chatbox\lib\screens\home\widgets\home_app_bar.dart                  | Dart       |         37 |          0 |          6 |         43 |
+| d:\Flutter\projects\chatbox\lib\screens\home\widgets\mybox.dart                         | Dart       |         34 |          0 |          4 |         38 |
+| d:\Flutter\projects\chatbox\lib\screens\home\widgets\profile_icon.dart                  | Dart       |         20 |          0 |          3 |         23 |
+| d:\Flutter\projects\chatbox\lib\screens\profile_screen.dart                             | Dart       |        150 |          0 |         10 |        160 |
+| d:\Flutter\projects\chatbox\lib\screens\qrcode_screen.dart                              | Dart       |         37 |          0 |          2 |         39 |
+| d:\Flutter\projects\chatbox\lib\screens\search_screen.dart                              | Dart       |         25 |          0 |          2 |         27 |
+| d:\Flutter\projects\chatbox\lib\screens\settings\option.dart                            | Dart       |         42 |          2 |          3 |         47 |
+| d:\Flutter\projects\chatbox\lib\screens\settings\settings_screen.dart                   | Dart       |        120 |          1 |          5 |        126 |
+| d:\Flutter\projects\chatbox\lib\services\firebase_services\firebase_auth.dart           | Dart       |         25 |          0 |          4 |         29 |
+| d:\Flutter\projects\chatbox\lib\services\firebase_services\firebase_database.dart       | Dart       |         25 |          0 |          2 |         27 |
+| d:\Flutter\projects\chatbox\lib\services\firebase_services\firebase_error_handler.dart  | Dart       |         34 |          0 |          1 |         35 |
+| d:\Flutter\projects\chatbox\lib\services\firebase_services\firebase_options.dart        | Dart       |         48 |         12 |          3 |         63 |
+| d:\Flutter\projects\chatbox\lib\utils\borders.dart                                      | Dart       |         18 |          0 |          2 |         20 |
+| d:\Flutter\projects\chatbox\lib\utils\colors.dart                                       | Dart       |         10 |          0 |          2 |         12 |
+| d:\Flutter\projects\chatbox\lib\utils\constes.dart                                      | Dart       |          2 |          0 |          1 |          3 |
+| d:\Flutter\projects\chatbox\lib\utils\keys.dart                                         | Dart       |          6 |          0 |          2 |          8 |
+| d:\Flutter\projects\chatbox\lib\utils\size_confing.dart                                 | Dart       |         15 |          1 |          4 |         20 |
+| d:\Flutter\projects\chatbox\lib\utils\space_widget.dart                                 | Dart       |         22 |          0 |          3 |         25 |
+| d:\Flutter\projects\chatbox\lib\utils\svgs.dart                                         | Dart       |         53 |        101 |         52 |        206 |
+| d:\Flutter\projects\chatbox\native_splach.yaml                                          | YAML       |          7 |          0 |          0 |          7 |
+| d:\Flutter\projects\chatbox\pubspec.yaml                                                | YAML       |         40 |          0 |         15 |         55 |
+| Total                                                                                   |            |      3,624 |        293 |        432 |      4,349 |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
